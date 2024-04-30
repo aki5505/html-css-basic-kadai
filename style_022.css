@@ -44,7 +44,7 @@ main{
 }
 
 .contents p:nth-of-type(2)::first-letter{
-      font: bold;
+      font-weight: bold;
       color: rgb(97,206,249);
 
 }
@@ -54,7 +54,7 @@ img{
 }
 
 footer{
-    color: rgb(244,79,79);
+    background-color: rgb(244,79,79);
     text-align: center;
 }
 
@@ -62,11 +62,11 @@ a{
     color: rgb(255,255,255);
 }
 a:visited{
-    color: rgb(193,,234,251);
+    color: rgb(193,234,251);
 }
 
 a:hover{
-    color: rgb(245,,178,168);
+    color: rgb(245,178,168);
 }
 
 @media screen and (max-width: 768px) {
@@ -77,7 +77,8 @@ a:hover{
         font-size: 25px;
     }
     #parent{
-        align-content: space-around;
+        display: flex;
+        flex-flow: column;
     }
 }
 
